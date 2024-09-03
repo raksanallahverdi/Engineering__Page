@@ -1,0 +1,35 @@
+*{
+    font-family: kanit;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:kanit ;
+    src: url(../fonts/Kanit/Kanit-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family:oswald-bold;
+    src: url(../fonts/Oswald/static/Oswald-Bold.ttf);
+}
+@font-face {
+    font-family:oswald;
+    src: url(../fonts/Oswald/static/Oswald-Regular.ttf);
+}
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-family: oswald;
+    color: black;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
