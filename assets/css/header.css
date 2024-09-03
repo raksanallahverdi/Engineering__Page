@@ -1,6 +1,6 @@
 
 header{
-
+    position: relative;
     height: 140px;
     display: flex;
     align-items: center;
@@ -34,14 +34,27 @@ header .container .info-wrapper li .info__description a{
 header .container .info-wrapper li .info__description p{
     color: rgba(0, 0, 0, 0.72);
 }
+header .container i.fa-bars{
+    display: none;
+    font-size: 40px;
+    color: rgb(248,146,29);
+}
 
 /* header nav */
 
  .header__nav__section{
+    z-index: 999;
+    position: sticky;
+    top: 0 ;
+    width: 100%;
     display: flex;
     align-items: center;
     background-color: rgb(248,146,29);
     height: 80px;
+}
+body{
+    margin: 0;
+
 }
  .header__nav__section .header__nav__section__list{
     display: flex;
@@ -56,3 +69,28 @@ header .container .info-wrapper li .info__description p{
     font-weight: 900;
    font-size: 16.5px;
 }
+
+
+@media (max-width: 1200px) and (min-width:992px) { 
+   
+    header .container .info-wrapper{
+        gap: 20px;
+    }
+ }
+@media (max-width: 992px) { 
+    header .container .info-wrapper{
+        display: none;
+    }
+    .header__nav__section{
+        display: none;
+    }
+    header .container i.fa-bars{
+        display: block;
+    }
+ }
+
+@media (min-width: 992px) {  }
+
+@media (min-width: 1200px) {  }
+
+@media (min-width: 1400px) {  }
