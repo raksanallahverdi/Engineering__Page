@@ -270,3 +270,84 @@
         gap: 40px;
     }
 }
+
+/* SECTION-4 CSS STYLES /////////////*/
+.section4 .container{
+    align-items: normal;
+}
+.section4 .container .section4__form-wrapper{
+    color: white;
+    margin: 90px 0;
+    width: 55%;
+    background-color: black;
+    padding: 50px;
+  
+}
+.section4 .container .section4__form-wrapper h4{
+    color: rgb(248, 146, 29);
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+.section4 .container .section4__form-wrapper h2{
+font-size: 31px;
+font-family: oswald;
+}
+.section4 .container .section4__form-wrapper h2 span{
+    font-family: oswald-bold;
+    }
+.section4 .container .section4__form-wrapper form{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.section4 .container .section4__form-wrapper form input{
+    background-color: black;
+    border: none;
+    border-bottom: 2px solid grey;
+    height: 60px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+   width: 43%;
+}
+.section4 .container .section4__form-wrapper form textarea{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    border-bottom: 2px solid rgb(86, 78, 78);
+    height: 250px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+   width: 43%;
+   font-size:20px ;
+}
+
+.section4 .container .section4__form-wrapper form input::placeholder{
+   color: white;
+   font-size: 20px;
+   padding-top: 20px;
+   padding-bottom: 0px;
+ }
+ .section4 .container .section4__form-wrapper form textarea::placeholder{
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  .section4__form-wrapper .form__btn__submit{
+    height: 40px;
+    display: flex;
+    align-self: flex-end;
+    width: 40%;
+    background-color: rgb(248, 146, 29);
+    text-align: center;
+    align-items: center;
+    font-family: oswald;
+    text-transform: uppercase;
+    border: none;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: white;
+  }
+

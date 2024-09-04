@@ -22,6 +22,10 @@
     font-family:oswald;
     src: url(../fonts/Oswald/static/Oswald-Regular.ttf);
 }
+@font-face {
+    font-family:play;
+    src: url(../fonts/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf);
+}
 ul{
     list-style: none;
 }
