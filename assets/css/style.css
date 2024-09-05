@@ -59,7 +59,7 @@
     }
 }
 
-/* SECTION-2 */
+/* SECTION-2 CSS STYLES START HERE /////////////////////////////////////////////////////////////////////////////////// */
 
 .section2 .title-wrapper {
     display: flex;
@@ -145,7 +145,7 @@
 
 }
 
-/* SECTION-3 */
+/* SECTION-3 /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .section3 {
     color: white;
     padding-bottom: 70px;
@@ -271,13 +271,13 @@
     }
 }
 
-/* SECTION-4 CSS STYLES /////////////*/
+/* SECTION-4 CSS STYLES /////////////////////////////////////////////////////////////////////////////////////////////////*/
 .section4 .container{
     align-items: normal;
 }
 .section4 .container .section4__form-wrapper{
     color: white;
-    margin: 90px 0;
+    margin: 110px 20px 70px 0;
     width: 55%;
     background-color: black;
     padding: 50px;
@@ -306,6 +306,8 @@ font-family: oswald;
     border: none;
     border-bottom: 2px solid grey;
     height: 60px;
+    font-size: 20px;
+    color: white;
     padding-bottom: 0px;
     padding-top: 30px;
    width: 43%;
@@ -350,4 +352,183 @@ font-family: oswald;
     font-size: 16px;
     color: white;
   }
+  .section4__img-wrapper{
+    width: 34%;
+    align-items: flex-end;
+display: flex;
+  }
+  .section4__img-wrapper img{
+    width: 100%;
+    object-fit: contain;
+  }
+  @media (max-width: 1200px) {
+    .section4 .container .section4__form-wrapper{
+        margin: 30px 20px 30px 0;
+        width: 50%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;      
+    }
+    .section4 .container .section4__form-wrapper form input{
+        background-color: black;
+        border: none;
+        border-bottom: 2px solid grey;
+        height: 60px;
+        padding-bottom: 0px;
+        padding-top: 30px;
+       width: 70%;
+    }
+    .section4 .container .section4__form-wrapper form textarea{
+      
+        height: 100px;
+        
+    }
+   
+}
 
+@media (max-width: 992px) {
+    .section4__img-wrapper{
+        display: none;
+    }
+    .section4 .container{
+        justify-content: center;
+    }
+    .section4 .container .section4__form-wrapper{
+        margin: 30px 20px 30px 0;
+        width: 65%;
+           
+    }
+   
+}
+@media (max-width: 768px) {
+    .section4 .container .section4__form-wrapper{
+        margin: 30px 20px 30px 0;
+        width: 80%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;      
+    }
+    .section4__form-wrapper .form__btn__submit{
+        font-size: 12px;
+    }
+   
+}
+
+/* SECTION-5 CSS STYLES STARTS HERE  ///////////////////////////////////////////////////////////////////////////////////// */
+
+.section5{
+    height: 87vh;
+    padding-top: 70px;
+    background-color: rgb(9, 22, 42);
+    color: white;
+}
+.section5__projects {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.section5__projects h4{
+    font-size: 20px;
+
+color: rgb(248, 146, 29);
+text-transform: uppercase;
+}
+.section5__projects h2{
+    font-size: 27px;
+}
+.section5__projects h2 span{
+    font-family: kanit-bold;
+}
+
+.section5__projects .projects__image-wrapper{
+    display: flex;
+    position: absolute;
+    gap: 30px;
+    margin-top: 70px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-top: 70px;
+
+}
+.section5__projects .projects__image-wrapper .project-box__image-wrapper{
+    width: 26%;
+    height: fit-content;
+}
+.section5__projects .projects__image-wrapper .project-box__image-wrapper img{
+
+    width: 100%;
+}
+
+
+
+@media (max-width: 1200px) {
+
+   
+}
+
+@media (max-width: 992px) {
+    .section5__projects .projects__image-wrapper .project-box__image-wrapper{
+        width: 32%;
+        height: fit-content;
+    }
+    .section5__projects .projects__image-wrapper{
+       justify-content: center;
+    
+    }
+    .section5__projects .projects__image-wrapper .box3{
+        display: none;
+    }
+    .section5__projects{
+        align-items: center;
+    }
+  
+   
+}
+@media (max-width: 768px) {
+    .section5__projects .projects__image-wrapper .box2{
+        display: none;
+    }
+    .section5__projects .projects__image-wrapper .project-box__image-wrapper{
+        width: 40%;
+        height: fit-content;
+    }
+    .section5{
+        padding-top: 30px;
+
+    }
+    .section5__projects {
+        margin-top: 10px;
+    }
+   
+}
+@media (max-width:710px) {
+
+    .section5__projects .projects__image-wrapper .project-box__image-wrapper{
+        width: 50%;
+        height: fit-content;
+    }
+   
+}
+@media (max-width:568px) {
+
+    .section5__projects .projects__image-wrapper .project-box__image-wrapper{
+        width: 60%;
+        height: fit-content;
+    }
+   
+}
+
+
+
+/* section6  */
+.section6{
+  height: 100vh;
+}
