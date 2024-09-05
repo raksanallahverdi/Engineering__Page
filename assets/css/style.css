@@ -192,10 +192,12 @@
     padding-top: 5px;
     color: rgb(248, 146, 29);
 }
-.section3 .container .info-wrapper li .info__description{
+
+.section3 .container .info-wrapper li .info__description {
     padding-left: 10px;
 
 }
+
 .section3 .container .info-wrapper li .info__description a {
     font-size: 20px;
     color: white;
@@ -223,7 +225,7 @@
     width: 90%;
 }
 
-.section3__description__side h2 span{
+.section3__description__side h2 span {
     font-family: oswald;
 }
 
@@ -233,19 +235,22 @@
     width: 90%;
     color: rgb(173, 159, 159);
 }
+
 @media (max-width: 1200px) {
 
     .section3 {
 
         padding-bottom: 30px;
     }
-    
+
     .section3 .section3__content-wrapper {
         padding: 20px 0 30px 20px;
     }
+
     .section3__description__side .description__title {
         padding-top: 0px;
     }
+
     .section3 .container .info-wrapper {
         padding-top: 10px;
         gap: 20px;
@@ -254,17 +259,19 @@
 
 @media (max-width: 992px) {
     .section3 .container .section3__image__side {
-       display: none;
+        display: none;
     }
 
     .section3 .section3__content-wrapper {
-       justify-content: center;
-         
+        justify-content: center;
+
     }
+
     .section3__description__side {
         width: 100%;
         gap: 30px;
     }
+
     .section3 .container .info-wrapper {
         padding-top: 20px;
         gap: 40px;
@@ -272,36 +279,42 @@
 }
 
 /* SECTION-4 CSS STYLES /////////////////////////////////////////////////////////////////////////////////////////////////*/
-.section4 .container{
+.section4 .container {
     align-items: normal;
 }
-.section4 .container .section4__form-wrapper{
+
+.section4 .container .section4__form-wrapper {
     color: white;
     margin: 110px 20px 70px 0;
     width: 55%;
     background-color: black;
     padding: 50px;
-  
+
 }
-.section4 .container .section4__form-wrapper h4{
+
+.section4 .container .section4__form-wrapper h4 {
     color: rgb(248, 146, 29);
     font-size: 20px;
     text-transform: uppercase;
 
 }
-.section4 .container .section4__form-wrapper h2{
-font-size: 31px;
-font-family: oswald;
+
+.section4 .container .section4__form-wrapper h2 {
+    font-size: 31px;
+    font-family: oswald;
 }
-.section4 .container .section4__form-wrapper h2 span{
+
+.section4 .container .section4__form-wrapper h2 span {
     font-family: oswald-bold;
-    }
-.section4 .container .section4__form-wrapper form{
+}
+
+.section4 .container .section4__form-wrapper form {
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
 }
-.section4 .container .section4__form-wrapper form input{
+
+.section4 .container .section4__form-wrapper form input {
     background-color: black;
     border: none;
     border-bottom: 2px solid grey;
@@ -310,9 +323,10 @@ font-family: oswald;
     color: white;
     padding-bottom: 0px;
     padding-top: 30px;
-   width: 43%;
+    width: 43%;
 }
-.section4 .container .section4__form-wrapper form textarea{
+
+.section4 .container .section4__form-wrapper form textarea {
     background-color: rgb(0, 0, 0);
     border: none;
     color: white;
@@ -320,23 +334,25 @@ font-family: oswald;
     height: 250px;
     padding-bottom: 0px;
     padding-top: 30px;
-   width: 43%;
-   font-size:20px ;
+    width: 43%;
+    font-size: 20px;
 }
 
-.section4 .container .section4__form-wrapper form input::placeholder{
-   color: white;
-   font-size: 20px;
-   padding-top: 20px;
-   padding-bottom: 0px;
- }
- .section4 .container .section4__form-wrapper form textarea::placeholder{
+.section4 .container .section4__form-wrapper form input::placeholder {
     color: white;
     font-size: 20px;
     padding-top: 20px;
     padding-bottom: 0px;
-  }
-  .section4__form-wrapper .form__btn__submit{
+}
+
+.section4 .container .section4__form-wrapper form textarea::placeholder {
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.section4__form-wrapper .form__btn__submit {
     height: 40px;
     display: flex;
     align-self: flex-end;
@@ -351,18 +367,21 @@ font-family: oswald;
     letter-spacing: 2px;
     font-size: 16px;
     color: white;
-  }
-  .section4__img-wrapper{
+}
+
+.section4__img-wrapper {
     width: 34%;
     align-items: flex-end;
-display: flex;
-  }
-  .section4__img-wrapper img{
+    display: flex;
+}
+
+.section4__img-wrapper img {
     width: 100%;
     object-fit: contain;
-  }
-  @media (max-width: 1200px) {
-    .section4 .container .section4__form-wrapper{
+}
+
+@media (max-width: 1200px) {
+    .section4 .container .section4__form-wrapper {
         margin: 30px 20px 30px 0;
         width: 50%;
         background-color: black;
@@ -370,41 +389,46 @@ display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 30px;      
+        padding: 30px;
     }
-    .section4 .container .section4__form-wrapper form input{
+
+    .section4 .container .section4__form-wrapper form input {
         background-color: black;
         border: none;
         border-bottom: 2px solid grey;
         height: 60px;
         padding-bottom: 0px;
         padding-top: 30px;
-       width: 70%;
+        width: 70%;
     }
-    .section4 .container .section4__form-wrapper form textarea{
-      
+
+    .section4 .container .section4__form-wrapper form textarea {
+
         height: 100px;
-        
+
     }
-   
+
 }
 
 @media (max-width: 992px) {
-    .section4__img-wrapper{
+    .section4__img-wrapper {
         display: none;
     }
-    .section4 .container{
+
+    .section4 .container {
         justify-content: center;
     }
-    .section4 .container .section4__form-wrapper{
+
+    .section4 .container .section4__form-wrapper {
         margin: 30px 20px 30px 0;
         width: 65%;
-           
+
     }
-   
+
 }
+
 @media (max-width: 768px) {
-    .section4 .container .section4__form-wrapper{
+    .section4 .container .section4__form-wrapper {
         margin: 30px 20px 30px 0;
         width: 80%;
         background-color: black;
@@ -412,22 +436,25 @@ display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 30px;      
+        padding: 30px;
     }
-    .section4__form-wrapper .form__btn__submit{
+
+    .section4__form-wrapper .form__btn__submit {
         font-size: 12px;
     }
-   
+
 }
 
 /* SECTION-5 CSS STYLES STARTS HERE  ///////////////////////////////////////////////////////////////////////////////////// */
 
-.section5{
+.section5 {
+    overflow: hidden;
     height: 87vh;
     padding-top: 70px;
     background-color: rgb(9, 22, 42);
     color: white;
 }
+
 .section5__projects {
     width: 100%;
     height: 100%;
@@ -435,100 +462,171 @@ display: flex;
     display: flex;
     flex-direction: column;
 }
-.section5__projects h4{
+
+.section5__projects h4 {
     font-size: 20px;
 
-color: rgb(248, 146, 29);
-text-transform: uppercase;
+    color: rgb(248, 146, 29);
+    text-transform: uppercase;
 }
-.section5__projects h2{
+
+.section5__projects h2 {
     font-size: 27px;
 }
-.section5__projects h2 span{
+
+.section5__projects h2 span {
     font-family: kanit-bold;
 }
 
-.section5__projects .projects__image-wrapper{
+.section5__projects .projects__image-wrapper {
     display: flex;
     position: absolute;
     gap: 30px;
     margin-top: 70px;
-    width: 100%;
+    width: 100%vw;
     flex-wrap: wrap;
     padding-top: 70px;
 
 }
-.section5__projects .projects__image-wrapper .project-box__image-wrapper{
+
+.section5__projects .projects__image-wrapper .project-box__image-wrapper {
     width: 26%;
     height: fit-content;
 }
-.section5__projects .projects__image-wrapper .project-box__image-wrapper img{
+
+.section5__projects .projects__image-wrapper .project-box__image-wrapper img {
 
     width: 100%;
 }
 
 
 
-@media (max-width: 1200px) {
-
-   
-}
 
 @media (max-width: 992px) {
-    .section5__projects .projects__image-wrapper .project-box__image-wrapper{
+    .section5__projects .projects__image-wrapper .project-box__image-wrapper {
         width: 32%;
         height: fit-content;
     }
-    .section5__projects .projects__image-wrapper{
-       justify-content: center;
-    
+
+    .section5__projects .projects__image-wrapper {
+        justify-content: center;
+
     }
-    .section5__projects .projects__image-wrapper .box3{
+
+    .section5__projects .projects__image-wrapper .box3 {
         display: none;
     }
-    .section5__projects{
+
+    .section5__projects {
         align-items: center;
     }
-  
-   
+
+
 }
+
 @media (max-width: 768px) {
-    .section5__projects .projects__image-wrapper .box2{
+    .section5__projects .projects__image-wrapper .box2 {
         display: none;
     }
-    .section5__projects .projects__image-wrapper .project-box__image-wrapper{
+
+    .section5__projects .projects__image-wrapper .project-box__image-wrapper {
         width: 40%;
         height: fit-content;
     }
-    .section5{
+
+    .section5 {
         padding-top: 30px;
 
     }
+
     .section5__projects {
         margin-top: 10px;
     }
-   
+
 }
+
 @media (max-width:710px) {
 
-    .section5__projects .projects__image-wrapper .project-box__image-wrapper{
+    .section5__projects .projects__image-wrapper .project-box__image-wrapper {
         width: 50%;
         height: fit-content;
     }
-   
+
 }
+
 @media (max-width:568px) {
 
-    .section5__projects .projects__image-wrapper .project-box__image-wrapper{
+    .section5__projects .projects__image-wrapper .project-box__image-wrapper {
         width: 60%;
         height: fit-content;
     }
-   
+
 }
 
 
 
 /* section6  */
-.section6{
-  height: 100vh;
+.section6 {
+    padding-top: 70px;
+    margin: 50px 0;
+}
+
+.section6 .section6__content-wrapper {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.section6 .section6__content-wrapper h4 {
+    color: rgb(248, 146, 29);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.section6 .section6__content-wrapper h2 {
+    font-size: 32px;
+
+}
+
+.section6 .section6__content-wrapper .comments-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding-top: 40px;
+}
+
+.section6 .section6__content-wrapper .comments-wrapper img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.section6 .section6__content-wrapper .comments-wrapper .comment-box {
+    width: 40%;
+}
+
+.section6 .section6__content-wrapper .comments-wrapper .comment-box p {
+    font-size: 20px;
+    padding-top: 13px;
+    font-weight: 900;
+}
+
+.section6 .section6__content-wrapper .comments-wrapper .comment-box h3 {
+    color: rgb(248, 146, 29);
+    padding: 17px 0;
+}
+@media (max-width: 992px)
+ {
+
+.section6 .section6__content-wrapper .comments-wrapper {
+    flex-direction: column;
+    align-items: center;
+}
+.section6 .section6__content-wrapper .comments-wrapper .comment-box {
+width: 70%;
+
+}
+
 }
