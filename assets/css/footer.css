@@ -1,0 +1,79 @@
+footer{
+    background-color:rgb(248, 146, 29);
+    color: white;
+}
+footer .footer__subscribe{
+    height: 100%;
+    padding: 70px 0;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+footer .footer__subscribe .subscribe__content h2{
+    font-size: 28px;
+    text-transform: uppercase;
+}
+footer .footer__subscribe .subscribe__content p{
+  
+   font-size: 20px;
+}
+footer .footer__subscribe input{
+    background-color: rgb(248, 146, 29);
+    border: 2px solid white;
+    width: 80%;
+height: 50px;
+}
+footer .subscribe__submit__section{
+    display: flex;
+    width: 50%;
+}
+footer .footer__subscribe button.subscribe-submit-btn{
+   height: 50px;
+   font-family: oswald;
+   letter-spacing: 2px;
+   background-color: black;
+   border: none;
+   color: white;
+   width: 135px;
+    }
+
+@media (max-width: 1200px) {
+
+    footer .subscribe__submit__section{
+  
+        width: 70%;
+    }
+    footer .footer__subscribe .subscribe__content h2{
+        font-size: 24px;
+    }
+    footer .footer__subscribe .subscribe__content p{
+      
+       font-size: 16px;
+    }
+
+}
+@media (max-width: 992px) {
+
+    footer .footer__subscribe{
+       flex-direction: column;
+       gap: 15px;
+       align-items: flex-start;
+    }
+    footer .subscribe__submit__section{
+        width: 100%;
+    }
+    footer .subscribe__content{
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+  
+     footer .subscribe__submit__section{
+         width: 100%;
+     }
+     footer .subscribe__content{
+         width: 100%;
+     }
+  
+}
