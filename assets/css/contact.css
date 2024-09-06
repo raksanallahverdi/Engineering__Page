@@ -71,3 +71,31 @@ form button{
     letter-spacing: 2px;
     height: 30px;
 }
+@media (max-width: 992px) {
+    form{flex-direction: column;
+        align-items: center;
+    
+    }
+    form button{
+        width: 42%;
+    
+    }
+   
+
+}
+
+@media (max-width: 768px) {
+   form{flex-direction: column;
+    align-items: center;
+
+}
+    form div{
+    
+        width: 80%;
+    }
+
+form button{
+    width: 45%;
+
+}
+}
